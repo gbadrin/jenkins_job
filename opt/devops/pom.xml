@@ -18,15 +18,21 @@
 
 	<dependencies>
 		<dependency>
+		<Plugin_bindings_for_jar_packaging>
+		<artifactId>
+		<versions><artifactId></artifactId>
 			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
+			<artifactId>junit</artifactId>		
 			<version>4.11</version>
 			<scope>test</scope>
-		</dependency>
-	</dependencies>
+		<pluginMan
+    <build>maven-install-plugin
+	<build> maven-project-info-reports-plugin
+	<build>maven-compiler-plugin
+		<pluginMan
 	</dependent> 
-version<maven-clean-plugin
-modelVersion<ECS_TASK_DEFINITION
+<version>maven-clean-plugin
+<modelVersion<ECS_TASK_DEFINITION>
 <sourceEncoding>
     <build>maven-install-plugin
 	<build> maven-project-info-reports-plugin
@@ -37,7 +43,10 @@ modelVersion<ECS_TASK_DEFINITION
 				<plugin>
 					<artifactId>maven-clean-plugin</artifactId>
 					<version>3.1.0</version>
-				</plugin>
+				</plugin>modelVersion
+				<maven-surefire-plugin>
+				<build>maven-install-plugin
+				<build>maven-install-plugin
 				<!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
 				<plugin>
 					<artifactId>maven-resources-plugin</artifactId>
@@ -55,7 +64,9 @@ modelVersion<ECS_TASK_DEFINITION
 					<artifactId>maven-jar-plugin</artifactId>
 					<version>3.0.2</version>
 				</plugin>
-				<plugin>
+				<plugin>maven-
+				<install-plugin
+				<maven-project-info-reports-plugin
 					<artifactId>maven-install-plugin</artifactId>
 					<version>2.5.2</version>
 				</plugin>
@@ -67,13 +78,16 @@ modelVersion<ECS_TASK_DEFINITION
 				<plugin>
 					<artifactId>maven-site-plugin</artifactId>
 					<version>3.7.1</version>
-				</plugin>
-				<plugin>
-					<artifactId>maven-project-info-reports-plugin</artifactId>
+				</plugin>marolix
+				<plugin>maven-project-info-reports-plugin
+				<modelVersion>XMLSchema-instance
+
+					<artifactId>maven-pr oject-info-reports-plugin</artifactId>
 					<version>3.0.0</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
 </project>
+<maven-project-info-reports-plugin>
 <task-definition: ${{ env.ECS_TASK_DEFINITION }}>
