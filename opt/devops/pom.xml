@@ -9,7 +9,8 @@
 	<version>1.0</version>
 
 	<name>devops</name>
-	<!-- FIXME change it to the project's website -->
+	<!-- FIXME change it to the project's website -->website_jenkins_job
+	
 	<url>http://www.example.com</url>
 
 	<properties>
