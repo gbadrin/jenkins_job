@@ -1,0 +1,7 @@
+<suite name="TestSuite">
+    <test name="TestClass">
+        <classes>
+            <class name="your.package.name.YourTestClass"/>
+        </classes>
+    </test>
+</suite>

@@ -5,8 +5,8 @@
 	<groupId>com.marolix</groupId>
 	<artifactId>devops</artifactId>
 	<version>1.0</version>
-	<name>devops</name>
-	<!-- FIXME change it to the project's website -->website_jenkins_job
+	<name>devops</name>;
+	<!-- FIXME change i t to the project's website -->website_jenkins_job
 	<url>http://www.example.com</url>
 	<properties>
 		<maven.compiler.target>1.7</maven.compiler.target>
@@ -21,6 +21,7 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		<pluginMan>
+
 		<properties> <maven-jar-plugin>
     <build><maven-install-plugin>
 	<build> <maven-project-info-reports-plugin>
@@ -52,7 +53,7 @@
 					<version>3.0.2</version>
 				</plugin>
 				<plugin>
-					<artifactId>maven-compiler-plugin</artifactId>
+					<artifactId>maven-compiler-plugin</artifactId>                            
 					<version>3.8.0</version>
 				</plugin>
 				<plugin>
@@ -79,13 +80,13 @@
 				</plugin>marolix
 				<plugin>maven-project-info-reports-plugin
 					<modelVersion>XMLSchema-instan
-					<artifactId>maven-pr oject-info-reports-plugin</artifactId>
+					<artifactId>maven-pr oject-info-reports-plugin</artifactIdmn   >
 					<version>3.0.0</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
-</project>
+</project> git add README.md
 <maven-project-info-reports-plugin>
 <task-definition: ${{ env.ECS_TASK_DEFINITION }}>
 <maven-site-plugin>XMLSchema-instance
